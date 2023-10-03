@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="211.0" prefWidth="428.0" style="-fx-background-color: #441263;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laborator_4.NameBox">
+   <children>
+      <TextField fx:id="tf_first_name" layoutX="41.0" layoutY="93.0" promptText="first name" style="-fx-background-color: #a934fc; -fx-prompt-text-fill: #441263" />
+      <TextField fx:id="tf_last_name" layoutX="232.0" layoutY="93.0" promptText="last name" style="-fx-background-color: #a934fc; -fx-prompt-text-fill: #441263" />
+      <Button fx:id="search_button" layoutX="157.0" layoutY="144.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="115.0" style="-fx-background-color: #11001c;" text="Search" textFill="#a934fc">
+         <font>
+            <Font name="Sylfaen" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="109.0" layoutY="41.0" text="Please enter the name:" textFill="#c267ff">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="523.0" prefWidth="763.0" style="-fx-background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/643ddc88-4dff-40c5-9d7d-bb11ac481953/df0j5so-84fb473e-b129-4a94-b46b-8f46ea6c88b5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY0M2RkYzg4LTRkZmYtNDBjNS05ZDdkLWJiMTFhYzQ4MTk1M1wvZGYwajVzby04NGZiNDczZS1iMTI5LTRhOTQtYjQ2Yi04ZjQ2ZWE2Yzg4YjUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hECAqUZpa6AKugYsvfka-M5KZMQk3Lg9qNNfsznkFuo'); -fx-background-size: cover; -fx-background-color: #441263;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laborator_4.LoggedInController">
+   <children>
+      <AnchorPane prefHeight="119.0" prefWidth="806.0" style="-fx-background-color: #11001c;;">
+         <children>
+            <ImageView fitHeight="94.0" fitWidth="93.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/db47g1s-95961fde-f942-438a-bdae-7171b5e8d9e9.gif" />
+               </image>
+            </ImageView>
+            <Label fx:id="label_welcome" layoutX="136.0" layoutY="14.0" prefHeight="94.0" prefWidth="437.0" text="Welcome!" textFill="#c267ff">
+               <font>
+                  <Font name="Sylfaen" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="461.0" prefHeight="62.0" prefWidth="806.0" style="-fx-background-color: #11001c;;">
+         <children>
+            <Button fx:id="logout_button" layoutX="680.0" layoutY="10.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: #3A015C;" text="Logout" textFill="#c267ff">
+               <font>
+                  <Font name="Sylfaen" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="friends_button" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: #3A015C;" text="Friends" textFill="#c267ff">
+               <font>
+                  <Font name="Sylfaen" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="friend_requests_button" layoutX="138.0" layoutY="10.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="143.0" style="-fx-background-color: #3A015C;" text="Friend Requests" textFill="#c267ff">
+               <font>
+                  <Font name="Sylfaen" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

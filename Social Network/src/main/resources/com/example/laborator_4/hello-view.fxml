@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laborator_4.HelloController">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="269.0" style="-fx-background-color: #11001c;">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="53.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/_free__journey_by_sqdpxl_dc9jiji.gif" />
+                    </image>
+                </ImageView>
+                <Label layoutX="64.0" layoutY="241.0" prefHeight="44.0" prefWidth="127.0" text="Social Network" textAlignment="CENTER" textFill="#c267ff">
+                    <font>
+                        <Font name="Sylfaen" size="19.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="400.0" prefWidth="359.0" style="-fx-background-color: #441263;">
+            <children>
+                <Label layoutX="26.0" layoutY="178.0" text="Password" textFill="#c267ff">
+                    <font>
+                        <Font name="Sylfaen" size="18.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="78.0" fitWidth="305.0" layoutX="20.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/dac32f2-c0442167-d5d2-473b-83da-2e94accdcae9.gif" />
+                    </image>
+                </ImageView>
+                <Label layoutX="15.0" layoutY="128.0" text="Email adress" textFill="#c267ff">
+                    <font>
+                        <Font name="Sylfaen" size="18.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="tf_email_adress" layoutX="138.0" layoutY="127.0" prefHeight="25.0" prefWidth="181.0" style="-fx-background-color: #a934fc;" />
+                <TextField fx:id="tf_password" layoutX="138.0" layoutY="177.0" prefHeight="25.0" prefWidth="181.0" style="-fx-background-color: #a934fc;" />
+                <Button fx:id="login_button" layoutX="86.0" layoutY="233.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="174.0" style="-fx-background-color: #11001c;" text="Login" textFill="#c267ff">
+                    <font>
+                        <Font name="Sylfaen" size="20.0" />
+                    </font>
+                </Button>
+                <Label layoutX="106.0" layoutY="332.0" text="Not a user?" textFill="#c267ff">
+                    <font>
+                        <Font name="Sylfaen" size="14.0" />
+                    </font>
+                </Label>
+                <Button fx:id="sign_up_button" layoutX="177.0" layoutY="327.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign up!" textFill="#ea62ff" underline="true">
+                    <font>
+                        <Font name="Sylfaen" size="14.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</HBox>
